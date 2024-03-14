@@ -19,8 +19,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/baseline_doorbell_24"
-            tools:layout_editor_absoluteX="338dp"
-            tools:layout_editor_absoluteY="0dp" />
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
 
         <Button
             android:id="@+id/button4"
@@ -29,8 +30,9 @@
             android:layout_weight="1"
             android:background="@drawable/baseline_app_settings_alt_24"
             android:gravity="center_vertical"
-            tools:layout_editor_absoluteX="376dp"
-            tools:layout_editor_absoluteY="5dp" />
+            tools:layout_editor_absoluteX="342dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
