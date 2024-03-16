@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="40dp"
-    android:background="#0bbfff"
+    android:background="@color/blue_color"
     android:orientation="horizontal">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="3dp"
         android:layout_weight="1">
 
         <Button
@@ -19,9 +19,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/baseline_doorbell_24"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="296dp"
-            tools:layout_editor_absoluteY="0dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="0dp" />
 
         <Button
             android:id="@+id/button4"
@@ -30,9 +30,9 @@
             android:layout_weight="1"
             android:background="@drawable/baseline_app_settings_alt_24"
             android:gravity="center_vertical"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="342dp"
-            tools:layout_editor_absoluteY="0dp"
-            tools:ignore="MissingConstraints" />
+            tools:layout_editor_absoluteY="0dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
