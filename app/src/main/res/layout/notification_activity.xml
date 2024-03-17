@@ -14,7 +14,47 @@
         android:layout_marginBottom="40dp"
         android:orientation="vertical">
 
+        <View
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/rounded_corner"
+            android:foregroundTint="@color/light_blue_color" />
 
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/rounded_corner"
+            android:foregroundTint="@color/light_blue_color" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/rounded_corner"
+            android:foregroundTint="@color/chosen_blue_color" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:foreground="@drawable/rounded_corner"
+            android:foregroundTint="@color/light_blue_color" />
     </LinearLayout>
 
     <include layout="@layout/footer_activity" />
