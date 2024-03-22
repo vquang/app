@@ -213,7 +213,7 @@
             android:drawableLeft="@drawable/baseline_check_circle_24"
             android:drawableTint="@color/green_color"
             android:gravity="center"
-            android:text="Your state of health is quite stable"
+            android:text="@string/good_health"
             android:textColor="@color/green_color"
             android:textSize="20dp"
             android:textStyle="bold" />
