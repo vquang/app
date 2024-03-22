@@ -14,7 +14,7 @@
         android:layout_margin="2dp">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bellButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"
@@ -26,13 +26,13 @@
             tools:layout_editor_absoluteY="0dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/setupButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:backgroundTint="@color/blue_color"
-            android:foreground="@drawable/baseline_app_settings_alt_24"
+            android:foreground="@drawable/round_brightness_high_24"
             android:gravity="center_vertical"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="54dp"

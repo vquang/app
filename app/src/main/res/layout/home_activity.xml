@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:foregroundTint="@color/blue_color">
 
     <include layout="@layout/header_activity" />
 
@@ -78,7 +79,7 @@
                     android:paddingRight="10dp">
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/prescriptionButton"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_gravity="top"
@@ -91,14 +92,14 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/button10"
+                        android:id="@+id/statisticButton"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_gravity="bottom"
                         android:layout_weight="1"
                         android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_pie_chart_24"
-                        android:text="Statistics"
+                        android:text="Statistic"
                         android:textSize="16dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -111,19 +112,20 @@
                     android:paddingLeft="10dp">
 
                     <Button
-                        android:id="@+id/button11"
+                        android:id="@+id/scheduleButton"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_gravity="top"
                         android:layout_weight="1"
                         android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_calendar_month_24"
+                        android:foreground="@drawable/rounded_corner"
                         android:text="Schedule"
                         android:textSize="16dp"
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/button12"
+                        android:id="@+id/healthButton"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_gravity="bottom"
