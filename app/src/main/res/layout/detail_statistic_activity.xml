@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView"
+                        android:text="Stenaphol"
                         android:textSize="16dp" />
 
                     <TextView
@@ -139,7 +139,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView"
+                        android:text="2"
                         android:textSize="16dp" />
 
                     <TextView
@@ -147,7 +147,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView"
+                        android:text="08:00AM"
                         android:textSize="16dp" />
 
                     <TextView
@@ -155,7 +155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="TextView"
+                        android:text="After meal"
                         android:textSize="16dp" />
                 </TableRow>
 
