@@ -17,11 +17,14 @@
 
         <CalendarView
             android:id="@+id/calendarView2"
+            style="@android:style/Widget.DeviceDefault.CalendarView"
             android:layout_width="match_parent"
             android:layout_height="320dp"
             android:layout_margin="20dp"
             android:background="@drawable/rounded_corner"
-            android:backgroundTint="@color/light_blue_color" />
+            android:backgroundTint="@color/light_blue_color"
+            android:showWeekNumber="false"
+            android:shownWeekCount="5" />
 
         <LinearLayout
             android:layout_width="match_parent"
