@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header_activity" />
+
+    <!-- Thông tin bệnh nhân -->
+    <LinearLayout
+        android:id="@+id/layout_patient_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/header_activity"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/info">
+
+        <ImageView
+            android:id="@+id/image_patient"
+            android:layout_width="94dp"
+            android:layout_height="81dp"
+            android:contentDescription="Patient Image"
+            android:src="@drawable/patient" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: Đỗ Tiến Sĩ"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Birth of date: 01/01/2023"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Phone: 0914824032"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Danh sách đơn thuốc trong ScrollView -->
+
+
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="400dp"
+        android:layout_below="@id/layout_patient_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="9dp">
+
+        <LinearLayout
+            android:id="@+id/prescription_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <!-- Đơn thuốc của bạn -->
+
+            <!-- Đơn thuốc 1 -->
+
+            <!-- Đơn thuốc 2 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_button"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Your prescriptions"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@id/prescript_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/round_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1st prescription"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Date: 22/03/2024"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/round_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2nd prescription"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Date: 20/03/2024"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+            <!-- Thêm các đơn thuốc khác tương tự ở đây nếu cần -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/footer_activity" />
+
+</RelativeLayout>

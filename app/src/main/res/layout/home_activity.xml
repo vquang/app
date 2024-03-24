@@ -35,6 +35,11 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
+                    <ImageView
+                        android:id="@+id/person_1"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_vertical"
                     <LinearLayout
                         android:layout_width="80dp"
                         android:layout_height="match_parent"
@@ -146,47 +151,28 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="20dp"
-                        android:orientation="vertical">
+                        android:background="@drawable/oval"
+                        android:backgroundTint="@color/green_color"
+                        android:clickable="true"
+                        android:contentDescription="@string/app_name"
+                        android:scrollbarAlwaysDrawHorizontalTrack="false"
+                        android:scrollbarAlwaysDrawVerticalTrack="false"
+                        android:scrollbars="vertical"
+                        app:fabSize="auto"
+                        app:srcCompat="@drawable/round_person_24" />
 
-                        <ImageView
-                            android:id="@+id/image4"
-                            android:layout_width="45dp"
-                            android:layout_height="45dp"
-                            android:layout_gravity="center_horizontal|top|center_vertical"
-                            android:background="@drawable/oval"
-                            android:backgroundTint="@color/green_color"
-                            android:clickable="true"
-                            android:contentDescription="@string/app_name"
-                            android:scrollbarAlwaysDrawHorizontalTrack="false"
-                            android:scrollbarAlwaysDrawVerticalTrack="false"
-                            android:scrollbars="vertical"
-                            app:fabSize="auto"
-                            app:srcCompat="@drawable/round_person_24" />
-
-                        <TextView
-                            android:id="@+id/textView48"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom|center_horizontal|center_vertical"
-                            android:layout_marginTop="5dp"
-                            android:ellipsize="end"
-                            android:gravity="center"
-                            android:singleLine="true"
-                            android:text="Nguyen Duc Linh"
-                            android:textSize="12dp" />
-                    </LinearLayout>
                 </LinearLayout>
-            </HorizontalScrollView>
+            </ScrollView>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/addMemberButton"
+                android:id="@+id/floatingActionButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
                 android:contentDescription="@string/app_name"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/blue_color"
                 app:srcCompat="@android:drawable/ic_input_add" />
         </LinearLayout>
 
@@ -195,7 +181,7 @@
             android:layout_width="match_parent"
             android:layout_height="220dp"
             android:layout_weight="1"
-            android:background="@color/light_gray">
+            android:background="#ffffff">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -218,13 +204,9 @@
                         android:layout_height="0dp"
                         android:layout_gravity="top"
                         android:layout_weight="1"
-                        android:backgroundTint="@color/white"
-                        android:backgroundTintMode="src_over"
+                        android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_event_note_24"
-                        android:drawableTint="@color/main_green"
-                        android:forceHasOverlappingRendering="false"
                         android:text="Prescription"
-                        android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
 
@@ -234,11 +216,9 @@
                         android:layout_height="0dp"
                         android:layout_gravity="bottom"
                         android:layout_weight="1"
-                        android:backgroundTint="@color/white"
+                        android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_pie_chart_24"
-                        android:drawableTint="@color/main_green"
                         android:text="Statistic"
-                        android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -256,11 +236,10 @@
                         android:layout_height="0dp"
                         android:layout_gravity="top"
                         android:layout_weight="1"
-                        android:backgroundTint="@color/white"
+                        android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_calendar_month_24"
-                        android:drawableTint="@color/main_green"
+                        android:foreground="@drawable/rounded_corner"
                         android:text="Schedule"
-                        android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
 
@@ -270,11 +249,9 @@
                         android:layout_height="0dp"
                         android:layout_gravity="bottom"
                         android:layout_weight="1"
-                        android:backgroundTint="@color/white"
+                        android:backgroundTint="@color/blue_color"
                         android:drawableTop="@drawable/baseline_book_24"
-                        android:drawableTint="@color/main_green"
                         android:text="Health"
-                        android:textColor="@color/black"
                         android:textSize="16dp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -284,72 +261,28 @@
         <TableRow
             android:id="@+id/third_row"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:background="@color/light_gray">
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:background="#ffffff">
 
-            <LinearLayout
+            <CalendarView
+                android:id="@+id/calendarView"
+                style="@android:style/Widget.Material.Light.CalendarView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:background="@color/main_green"
-                    android:gravity="center"
-                    android:text="Prescription of day"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView50"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="3dp"
-                            android:background="@color/white"
-                            android:text="TextView" />
-
-                        <TextView
-                            android:id="@+id/textView51"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="3dp"
-                            android:background="@color/white"
-                            android:text="TextView" />
-
-                        <TextView
-                            android:id="@+id/textView52"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="3dp"
-                            android:background="@color/white"
-                            android:text="TextView" />
-
-                        <TextView
-                            android:id="@+id/textView53"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginBottom="3dp"
-                            android:background="@color/white"
-                            android:text="TextView" />
-                    </LinearLayout>
-                </ScrollView>
-            </LinearLayout>
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/light_blue_color"
+                android:dateTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:hapticFeedbackEnabled="false"
+                android:selectedWeekBackgroundColor="#338B8D8F"
+                android:showWeekNumber="false"
+                android:soundEffectsEnabled="false"
+                android:splitMotionEvents="true"
+                android:visibility="visible"
+                android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Body1"></CalendarView>
         </TableRow>
 
     </LinearLayout>

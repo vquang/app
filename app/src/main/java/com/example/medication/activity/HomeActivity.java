@@ -3,6 +3,7 @@ package com.example.medication.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.medication.R;
 import com.example.medication.activity.base.MainActivity;
@@ -11,7 +12,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class HomeActivity extends MainActivity {
     private Button statisticButton;
-
+    private ImageView person;
     private Button healthButton;
 
     private Button prescriptionButton;
@@ -24,7 +25,6 @@ public class HomeActivity extends MainActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_activity);
-
         constructor();
     }
 
@@ -36,12 +36,14 @@ public class HomeActivity extends MainActivity {
         healthButton = findViewById(R.id.healthButton);
         prescriptionButton = findViewById(R.id.prescriptionButton);
         scheduleButton = findViewById(R.id.scheduleButton);
+        person = findViewById(R.id.person_1);
         addMemberButton = findViewById(R.id.addMemberButton);
 
         statisticButton.setOnClickListener(this);
         healthButton.setOnClickListener(this);
         scheduleButton.setOnClickListener(this);
         prescriptionButton.setOnClickListener(this);
+        person.setOnClickListener(this);
         addMemberButton.setOnClickListener(this);
 
     }
@@ -56,6 +58,10 @@ public class HomeActivity extends MainActivity {
             TransferActivity.transferActivity(this, StatisticActivity.class);
         else if (id == R.id.healthButton)
             TransferActivity.transferActivity(this, HealthAssessmentActivity.class);
+        else if (id == R.id.prescriptionButton)
+            TransferActivity.transferActivity(this, ListPrescription.class);
+        else if (id == R.id.person_1)
+            TransferActivity.transferActivity(this, MedicationSchedule.class);
         else if (id == R.id.addMemberButton)
             TransferActivity.transferActivity(this, AddMemberActivity.class);
     }
