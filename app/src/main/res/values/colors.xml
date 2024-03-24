@@ -13,4 +13,6 @@
     <color name="red_color">#FF0000</color>
     <color name="light_blue_color">#A4DEF8</color>
     <color name="chosen_blue_color">#5CC6F6</color>
+    <color name="cot">#bfbfbf</color>
+    <color name="info">#E5E5E5</color>#E5E5E5
 </resources>
