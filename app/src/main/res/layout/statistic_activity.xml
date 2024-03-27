@@ -15,7 +15,6 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/first_row"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:background="#E3DBDB"
@@ -178,7 +177,7 @@
             </HorizontalScrollView>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton3"
+                android:id="@+id/addMemButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"

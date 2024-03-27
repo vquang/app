@@ -8,7 +8,6 @@ import android.widget.Button;
 import com.example.medication.R;
 import com.example.medication.activity.base.MainActivity;
 import com.example.medication.util.TransferActivity;
-import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
