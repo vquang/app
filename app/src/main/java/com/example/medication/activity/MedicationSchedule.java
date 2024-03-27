@@ -10,6 +10,7 @@ import android.widget.CheckBox;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +24,7 @@ import java.text.SimpleDateFormat;
 
 
 public class MedicationSchedule extends AppCompatActivity implements View.OnClickListener {
-    private Button add;
+    private Button add,save;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,6 +36,9 @@ public class MedicationSchedule extends AppCompatActivity implements View.OnClic
     public void constructor() {
         add = findViewById(R.id.button_add_medication);
         add.setOnClickListener(this);
+
+        save = findViewById(R.id.button_save_medication_schedule);
+        save.setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +46,9 @@ public class MedicationSchedule extends AppCompatActivity implements View.OnClic
         if (v.getId() == R.id.button_add_medication) {
             Intent intent = new Intent(this, NewMedication.class);
             startActivityForResult(intent, 1);
+        }
+        else if(v.getId() == R.id.button_save_medication_schedule){
+            Toast.makeText(MedicationSchedule.this,"New prescription saved", Toast.LENGTH_SHORT).show();
         }
     }
 

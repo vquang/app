@@ -18,42 +18,165 @@
         <LinearLayout
             android:id="@+id/first_row"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:background="#E3DBDB"
             android:orientation="horizontal">
 
-            <ScrollView
+            <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#C8BBBB" >
+                android:background="#C8BBBB">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/person_1"
-                        android:layout_width="50dp"
-                        android:layout_height="45dp"
-                        android:layout_gravity="center_vertical"
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="20dp"
-                        android:background="@drawable/oval"
-                        android:backgroundTint="@color/green_color"
-                        android:clickable="true"
-                        android:contentDescription="@string/app_name"
-                        android:scrollbarAlwaysDrawHorizontalTrack="false"
-                        android:scrollbarAlwaysDrawVerticalTrack="false"
-                        android:scrollbars="vertical"
-                        app:fabSize="auto"
-                        app:srcCompat="@drawable/round_person_24" />
+                        android:orientation="vertical">
 
+                        <ImageView
+                            android:id="@+id/person_1"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center_horizontal|top|center_vertical"
+                            android:background="@drawable/oval"
+                            android:backgroundTint="@color/green_color"
+                            android:clickable="true"
+                            android:contentDescription="@string/app_name"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbarAlwaysDrawVerticalTrack="false"
+                            android:scrollbars="vertical"
+                            app:fabSize="auto"
+                            app:srcCompat="@drawable/round_person_24" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal|center_vertical"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="Nguyen Duc Linh"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center_horizontal|top|center_vertical"
+                            android:background="@drawable/oval"
+                            android:backgroundTint="@color/purple_500"
+                            android:clickable="true"
+                            android:contentDescription="@string/app_name"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbarAlwaysDrawVerticalTrack="false"
+                            android:scrollbars="vertical"
+                            app:fabSize="auto"
+                            app:srcCompat="@drawable/round_person_24" />
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal|center_vertical"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="Nguyen Duc Linh"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center_horizontal|top|center_vertical"
+                            android:background="@drawable/oval"
+                            android:backgroundTint="@color/yellow_color"
+                            android:clickable="true"
+                            android:contentDescription="@string/app_name"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbarAlwaysDrawVerticalTrack="false"
+                            android:scrollbars="vertical"
+                            app:fabSize="auto"
+                            app:srcCompat="@drawable/round_person_24" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal|center_vertical"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="Nguyen Duc Linh"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center_horizontal|top|center_vertical"
+                            android:background="@drawable/oval"
+                            android:backgroundTint="@color/green_color"
+                            android:clickable="true"
+                            android:contentDescription="@string/app_name"
+                            android:scrollbarAlwaysDrawHorizontalTrack="false"
+                            android:scrollbarAlwaysDrawVerticalTrack="false"
+                            android:scrollbars="vertical"
+                            app:fabSize="auto"
+                            app:srcCompat="@drawable/round_person_24" />
+
+                        <TextView
+                            android:id="@+id/textView48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal|center_vertical"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="Nguyen Duc Linh"
+                            android:textSize="12dp" />
+                    </LinearLayout>
                 </LinearLayout>
-            </ScrollView>
+            </HorizontalScrollView>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton3"
@@ -152,13 +275,12 @@
         <TableRow
             android:id="@+id/third_row"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_weight="1"
+            android:layout_height="250dp"
             android:background="#ffffff">
 
             <CalendarView
                 android:id="@+id/calendarView"
-                style="@android:style/Widget.Material.Light.CalendarView"
+                style="@android:style/Widget.Holo.Light.CalendarView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
@@ -166,10 +288,11 @@
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/rounded_corner"
                 android:backgroundTint="@color/light_blue_color"
-                android:dateTextAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:dateTextAppearance="@style/TextAppearance.AppCompat.Small"
                 android:hapticFeedbackEnabled="false"
                 android:selectedWeekBackgroundColor="#338B8D8F"
                 android:showWeekNumber="false"
+                android:shownWeekCount="5"
                 android:soundEffectsEnabled="false"
                 android:splitMotionEvents="true"
                 android:visibility="visible"

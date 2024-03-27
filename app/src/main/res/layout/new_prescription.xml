@@ -164,7 +164,7 @@
         <Button
             android:id="@+id/button_add_medication_prescription"
             android:layout_width="45dp"
-            android:layout_height="34dp"
+            android:layout_height="45dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="32dp"
@@ -178,8 +178,8 @@
 
         <Button
             android:id="@+id/button_save_prescription_doctor"
-            android:layout_width="114dp"
-            android:layout_height="51dp"
+            android:layout_width="95dp"
+            android:layout_height="43dp"
             android:layout_marginBottom="4dp"
             android:text="Save"
             app:layout_constraintBottom_toBottomOf="parent"
