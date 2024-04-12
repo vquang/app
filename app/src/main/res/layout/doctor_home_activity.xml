@@ -11,15 +11,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/light_gray"
         android:orientation="vertical">
 
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="start"
-            android:layout_margin="8dp">
+            android:layout_margin="8dp"
+            android:gravity="start">
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -28,41 +30,44 @@
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:backgroundTint="@color/blue_color"
                     android:drawableTop="@drawable/baseline_event_note_24"
                     android:gravity="center"
+                    android:paddingTop="20dp"
                     android:text="prescription"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    app:iconPadding="0dp"
-                    android:paddingTop="20dp"/>
+                    app:iconPadding="0dp" />
+
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="100dp"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/blue_color"
                     android:drawableTop="@drawable/baseline_calendar_month_24"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
                     android:text="schedule"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    android:layout_margin="10dp"
-                    android:gravity="center"
-                    app:iconPadding="0dp"
-                    android:paddingTop="20dp"/>
+                    app:iconPadding="0dp" />
             </TableRow>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
+                    android:gravity="center"
                     android:text="Schedule today"
                     android:textColor="#007ACC"
                     android:textSize="30sp"
-                    android:gravity="center"
                     android:textStyle="bold" />
             </LinearLayout>
         </TableLayout>
@@ -78,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -92,24 +98,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="start"
                             android:text="Bệnh nhân: Vinh Quang"
                             android:textColor="#007ACC"
                             android:textSize="25sp"
-                            android:gravity="start"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="start"
                             android:text="Thứ 2, ngày 4-3, 8h:30am"
                             android:textColor="#666666"
                             android:textSize="22sp"
-                            android:gravity="start"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -124,6 +130,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -138,24 +145,24 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="start"
                             android:text="Bệnh nhân: Tiến Sĩ"
                             android:textColor="#007ACC"
                             android:textSize="25sp"
-                            android:gravity="start"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="start"
                             android:text="Thứ 2, ngày 4-3, 8h:30am"
                             android:textColor="#666666"
                             android:textSize="22sp"
-                            android:gravity="start"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
 
