@@ -13,7 +13,7 @@ import com.example.medication.activity.NotificationSettingActivity;
 import com.example.medication.util.TransferActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    protected Button bellButton;
+    protected Buton bellButton;
 
     protected Button setupButton;
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     protected Button chatButton;
 
-    protected Button userButton;
+    protected Button userBtutton;
 
     protected void constructor() {
         bellButton = findViewById(R.id.bellButton);
