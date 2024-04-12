@@ -1,6 +1,5 @@
 package com.example.medication.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,8 +39,6 @@ public class HomeActivity extends MainActivity {
         scheduleButton = findViewById(R.id.scheduleButton);
         addMemberButton = findViewById(R.id.addMemberButton);
 
-
-
         statisticButton.setOnClickListener(this);
         healthButton.setOnClickListener(this);
         scheduleButton.setOnClickListener(this);
@@ -62,7 +59,6 @@ public class HomeActivity extends MainActivity {
             TransferActivity.transferActivity(this, HealthAssessmentActivity.class);
         else if (id == R.id.addMemberButton)
             TransferActivity.transferActivity(this, AddMemberActivity.class);
-
     }
 
 }
