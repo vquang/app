@@ -10,21 +10,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/light_gray"
         android:orientation="vertical">
 
 
         <CalendarView
             android:id="@+id/calendarView2"
-            style="@android:style/Widget.DeviceDefault.CalendarView"
+            style="@android:style/Widget.CalendarView"
             android:layout_width="match_parent"
-            android:layout_height="320dp"
+            android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/rounded_corner"
-            android:backgroundTint="@color/light_blue_color"
+            android:backgroundTint="@color/white"
             android:showWeekNumber="false"
-            android:shownWeekCount="5" />
+            android:shownWeekCount="2" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,13 +72,13 @@
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/light_blue_color">
+                android:background="@color/white">
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/blue_color">
+                    android:background="@color/main_green">
 
                     <TextView
                         android:id="@+id/textView29"

@@ -10,8 +10,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/light_gray"
         android:orientation="vertical">
 
         <LinearLayout
@@ -82,12 +83,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
-                android:background="@color/abc" />
+                android:background="@color/white" />
 
             <com.github.mikephil.charting.charts.PieChart
                 android:id="@+id/chart"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="260dp"
                 android:layout_weight="1" />
 
             <LinearLayout
@@ -183,7 +184,7 @@
             android:layout_alignParentBottom="false"
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
-            android:backgroundTint="@color/blue_color"
+            android:backgroundTint="@color/main_green"
             android:text="Show details"
             android:textSize="16dp"
             android:textStyle="bold" />

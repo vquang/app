@@ -10,12 +10,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp">
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/light_gray"
             android:orientation="vertical">
 
             <LinearLayout
@@ -27,8 +28,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/light_blue_color"
-                android:foreground="@drawable/rounded_corner"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -38,7 +37,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_margin="20dp"
                     android:foreground="@drawable/baseline_notifications_24"
-                    android:foregroundTint="@color/blue_color"
+                    android:foregroundTint="@color/main_green"
                     android:visibility="visible" />
 
                 <LinearLayout
@@ -77,8 +76,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/light_blue_color"
-                android:foreground="@drawable/rounded_corner"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -88,7 +85,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_margin="20dp"
                     android:foreground="@drawable/baseline_notifications_24"
-                    android:foregroundTint="@color/blue_color"
+                    android:foregroundTint="@color/main_green"
                     android:visibility="visible" />
 
                 <LinearLayout
@@ -127,8 +124,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/light_blue_color"
-                android:foreground="@drawable/rounded_corner"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -138,7 +133,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_margin="20dp"
                     android:foreground="@drawable/baseline_notifications_24"
-                    android:foregroundTint="@color/blue_color"
+                    android:foregroundTint="@color/main_green"
                     android:visibility="visible" />
 
                 <LinearLayout
@@ -177,8 +172,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/chosen_blue_color"
-                android:foreground="@drawable/rounded_corner"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -188,7 +181,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_margin="20dp"
                     android:foreground="@drawable/baseline_notifications_24"
-                    android:foregroundTint="@color/blue_color"
+                    android:foregroundTint="@color/main_green"
                     android:visibility="visible" />
 
                 <LinearLayout
@@ -227,8 +220,6 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/light_blue_color"
-                android:foreground="@drawable/rounded_corner"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -238,7 +229,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_margin="20dp"
                     android:foreground="@drawable/baseline_notifications_24"
-                    android:foregroundTint="@color/blue_color"
+                    android:foregroundTint="@color/main_green"
                     android:visibility="visible" />
 
                 <LinearLayout
