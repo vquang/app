@@ -20,7 +20,6 @@ public class HomeActivity extends MainActivity {
 
     private FloatingActionButton addMemberButton;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,5 +59,4 @@ public class HomeActivity extends MainActivity {
         else if (id == R.id.addMemberButton)
             TransferActivity.transferActivity(this, AddMemberActivity.class);
     }
-
 }
