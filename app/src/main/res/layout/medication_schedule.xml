@@ -63,6 +63,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="337dp"
         android:layout_below="@+id/layout_patient_info"
@@ -149,6 +150,7 @@
                     android:gravity="center">
 
                     <TextView
+                        android:id="@+id/hang1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -191,7 +193,7 @@
     <Button
         android:id="@+id/button_add_medication"
         android:layout_width="45dp"
-        android:layout_height="34dp"
+        android:layout_height="45dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
@@ -199,5 +201,22 @@
         android:background="@drawable/add"
         />
     <include layout="@layout/footer_activity" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/footer_activity" />
+
+    <Button
+        android:id="@+id/button_save_medication_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="3dp"
+        android:text="Save" />
 
 </RelativeLayout>

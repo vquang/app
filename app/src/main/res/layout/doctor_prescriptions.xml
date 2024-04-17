@@ -174,7 +174,7 @@
     <Button
         android:id="@+id/button_add_new_prescription"
         android:layout_width="45dp"
-        android:layout_height="34dp"
+        android:layout_height="45dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="18dp"
