@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:background="@color/blue_color"
+        android:background="@color/main_green"
         android:orientation="vertical"></LinearLayout>
 
     <LinearLayout
@@ -27,7 +27,7 @@
             android:layout_height="90dp"
             android:gravity="bottom|center"
             android:text=" Đăng nhập"
-            android:textColor="#E91E5E"
+            android:textColor="@color/main_green"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -38,7 +38,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="25dp"
-            android:background="#E91E5E" />
+            android:background="@color/main_green" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextText1"
+                    android:id="@+id/usernameET"
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -92,7 +92,7 @@
                     android:textSize="20dp" />
 
                 <EditText
-                    android:id="@+id/editTextText2"
+                    android:id="@+id/passwordET"
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -139,7 +139,7 @@
             android:layout_width="200dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
-            android:backgroundTint="#259C10"
+            android:backgroundTint="@color/main_green"
             android:text="Đăng nhập"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -154,7 +154,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="27dp"
         android:animateLayoutChanges="false"
-        android:background="@color/blue_color"
+        android:background="@color/main_green"
         android:orientation="vertical"></LinearLayout>
 
 </RelativeLayout>

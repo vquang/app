@@ -23,7 +23,7 @@
             android:layout_height="60dp"
             android:gravity="bottom|center"
             android:text="Thêm thành viên"
-            android:textColor="#E91E5E"
+            android:textColor="@color/main_green"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -34,7 +34,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="25dp"
-            android:background="#E91E5E" />
+            android:background="@color/main_green" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="130dp"
-                    android:backgroundTint="#259C10"
+                    android:backgroundTint="@color/main_green"
                     android:text="Thêm ảnh"
                     app:cornerRadius="10dp" />
 
@@ -97,7 +97,7 @@
                     app:fabSize="auto"></ImageView>
 
                 <EditText
-                    android:id="@+id/editTextText2"
+                    android:id="@+id/passwordET"
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -174,7 +174,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:backgroundTint="#259C10"
+            android:backgroundTint="@color/main_green"
             android:text="Lưu"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -190,10 +190,10 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="14dp"
             android:drawableLeft="@drawable/baseline_check_circle_24"
-            android:drawableTint="@color/green_color"
+            android:drawableTint="@color/main_green"
             android:gravity="center"
             android:text="Thành công!"
-            android:textColor="@color/green_color"
+            android:textColor="@color/main_green"
             android:textSize="20dp"
             android:textStyle="bold" />
 
