@@ -20,8 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activity.DoctorHomeActivity"
+            android:exported="true" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity
             android:name=".activity.DoctorHomeActivity"
@@ -72,6 +80,24 @@
         </activity>
         <activity
             android:name=".activity.NewPrescription"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.UserActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.AddMemberActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.RepasswordActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.SignInActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.ForgotPassActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".activity.SignUpActivity"
             android:exported="true"></activity>
     </application>
 
